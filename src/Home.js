@@ -1,16 +1,10 @@
 import React, { useEffect } from 'react';
 import Typed from 'typed.js';
-import img1 from './Images/IMG_20240623_070844.jpg';
+import img1 from './Images/IMG_20240705_215544.jpg';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
  import './App.css';
 const Home =()=>{
-  const scrollToBottom = () => {
-    window.scrollTo({
-      top: document.body.scrollHeight,
-      behavior: 'smooth',
-    });
-  };
   useEffect(() => {
     const options = ['Photographer', 'Event photographer', 'Videographer'];
 
@@ -32,13 +26,9 @@ const Home =()=>{
       <div className="container">
 <div className="row row-width">
 <div className="col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center align-items-center align-items-lg-start">
-  <h3 className='text-white'>Hello It's Me</h3>
   <h1 className='text-capitalize text-white fw-bolder'>savan naik</h1>
-  <h3 className='text-white'>And I'm a <span className="multiple-text text-transform-capitalize"></span></h3>
+  <h3 className='text-white'><span className="multiple-text text-transform-capitalize"></span></h3>
   <p className="text-capitalize text-grey mt-1 mb-10 text-center text-lg-start">Capturing Moments: The Art, Craft, and Vision of a Photographer's Journey</p>
-  <div className="text-center text-lg-start">
-  <button onClick={scrollToBottom} className="text-capitalize btn btn-primary px-5 py-2 scroll-button">contact us</button>
-  </div>
 </div>
   <div className='col-12 col-md-12 col-lg-6'>
 <div className='text-center text-lg-end w-100 text-md-center img-padding'>
