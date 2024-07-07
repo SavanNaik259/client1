@@ -1,5 +1,6 @@
 import React from "react";
 import Home from "./Home";
+import Show from "./Show";
 import About from './About';
 import Service from './Service';
 import Contact from './Contact';
@@ -18,6 +19,7 @@ const App =() => {
     <Route path="/service" element={<Service/>}/>
     <Route path="/contact" element={<Contact/>}/>
       </Routes>
+     <Show/>
     <Service/>
     <Professional/>
      <About/>
