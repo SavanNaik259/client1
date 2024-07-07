@@ -36,6 +36,7 @@ h1,h2,h3,h4,h5{
 }
 h1{
   font-size:  4.2rem!important;
+  font-family: "Playwrite GB S", cursive;
 }
 h2{
   font-size: 2.1rem!important;
@@ -54,7 +55,7 @@ p{
 }
 /* section  */
 .row-width{
-  margin-bottom: 10vw;
+  margin-bottom: 30vw!important;
 }
 .text-grey{
   color: var(--text-primary-color)!important;
@@ -78,7 +79,7 @@ p{
   height:36vh!important;
   width:80vw!important;
    border:5px solid white; 
-  border-radius:50%;
+  /*border-radius:50%;*/
 }
 .hero-section .container{
   display: grid;
@@ -117,6 +118,15 @@ p{
 .custom-shape-divider-bottom-1717076482 .shape-fill {
   fill: #FFFFFF;
 }
+/*show*/
+.card {
+  width:100%!important;
+}
+.card-img-show{
+  height:25vh!important;
+  width:100%!important;
+  object-fit: cover; 
+}
 /*service*/
 .service-row{
   margin-bottom: 10vw;
@@ -148,11 +158,11 @@ transition:.5s ease;
   align-items: center;
 }
 .a-img{
-  border-radius:40%!important;
+ border-radius:1rem!important;
   height:15rem!important;
-  width: 17rem!important;
+  width: 22rem!important;
   border:2px solid black;
-  border-radius: 2rem;
+ /* border-radius: 2rem;*/
 }
 .custom-shape-divider-top-1717932437 {
   position: absolute;
