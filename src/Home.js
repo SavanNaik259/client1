@@ -6,7 +6,7 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
  import './App.css';
 const Home =()=>{
   useEffect(() => {
-    const options = ['Portrait Photographer', 'Event photographer', 'Videographer'];
+    const options = ['Photographer', 'Event photographer', 'Videographer'];
 
     const typed = new Typed('.multiple-text', {
       strings: options,
